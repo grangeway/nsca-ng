@@ -132,7 +132,7 @@ exit 0
 %files client
 %defattr(-,root,root,-)
 %doc COPYING README NEWS AUTHORS
-%config(noreplace) %attr(0640,-,-) %{_sysconfdir}/send_nsca.cfg
+%config(noreplace) %attr(0600,-,-) %{_sysconfdir}/send_nsca.cfg
 %{_sbindir}/send_nsca
 %{_mandir}/man5/send_nsca.cfg.5.gz
 %{_mandir}/man8/send_nsca.8.gz
